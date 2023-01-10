@@ -1,6 +1,6 @@
 :earth_americas: Aplicação Web - ToDoList - ReactJS
 
-- Projeto desenvolvido na trilha de **ReactJS** do **Ignite** da [Rocketseat][rocketseat_site].
+- Projeto desenvolvido na trilha de **ReactJS** do **Ignite** da [Rocketseat]
 - Modulo 1 - Fundamentos de ReactJS
 - Desafio 01 - Praticando os conceitos do ReactJS
 
@@ -52,6 +52,6 @@ $ npm run dev
 
 ## :rocket: Tecnologias
 
-- [React Native][reactjs]
-- [Vite][vitejs]
-- [TypeScript][typescript]
+- [React Native]
+- [Vite]
+- [TypeScript]
