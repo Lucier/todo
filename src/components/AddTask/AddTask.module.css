@@ -1,0 +1,83 @@
+.addTask {
+  width: 100%;
+  background: none;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: -1.575rem;
+}
+
+@media (max-width: 655px) {
+  .addTask {
+    padding: 0 1rem;
+  }
+}
+
+.addTask > input {
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  position: relative;
+
+  padding-left: 1rem;
+
+  color: var(--gray-300);
+  background: var(--gray-500);
+  border: none;
+}
+
+.addTask > input:focus {
+  outline: 1px solid var(--purple-dark);
+}
+
+.inputIsActive:focus {
+  padding-left: 11.2rem;
+  left: 5rem;
+}
+
+.inputDescription {
+  position: relative;
+  left: -34rem;
+  color: white;
+}
+
+.addTask > button {
+  margin-left: 1rem;
+  min-width: 3rem;
+  width: 5.625rem;
+  height: 3.25rem;
+
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+
+  transition: background-color 1s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .addTask > button {
+    flex-direction: column;
+  }
+}
+
+.addTask > button:hover {
+  background-color: var(--blue);
+}
+
+.addTask > button > img {
+  margin-left: 0.5rem;
+}
+
+.buttonWhenInputIsActive {
+  position: relative;
+  left: -4.91rem;
+}

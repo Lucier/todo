@@ -1,0 +1,14 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.taskList {
+  margin-top: 1rem;
+}
+
+@media (max-width: 655px) {
+  .taskList {
+    padding: 0 1rem;
+  }
+}

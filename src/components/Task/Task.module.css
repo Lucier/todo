@@ -1,0 +1,106 @@
+.task {
+  background: var(--gray-500);
+  color: var(--white);
+  max-width: 46.5rem;
+  min-height: 3rem;
+  border-radius: 8px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.task + .task {
+  margin-top: 1rem;
+}
+
+.labelCheckbox {
+  display: flex;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.labelCheckbox input:first-child {
+  border: 1px solid var(--blue);
+  background-color: var(--gray-400);
+}
+
+.labelCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  border-radius: 100%;
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: var(--gray-400);
+  border: 2px solid var(--blue);
+}
+
+.labelCheckbox:hover input ~ .checkmark {
+  background-color: var(--purple);
+}
+
+.labelCheckbox input:checked ~ .checkmark {
+  background-color: var(--purple);
+  border: none;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+
+  width: 0.2rem;
+  margin-top: 0.25rem;
+  margin-left: 0.45rem;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.labelCheckbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.task > span {
+  margin-left: 1rem;
+  width: 38rem;
+}
+
+.task > button {
+  margin-left: auto;
+  margin-right: 1rem;
+
+  background: transparent;
+  border: none;
+
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #808080;
+}
+
+.task > button:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+}
+
+.descriptionChecked {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
