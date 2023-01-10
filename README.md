@@ -1,4 +1,4 @@
-earth_americas: Aplicação Web - ToDoList - ReactJS
+:earth_americas: Aplicação Web - ToDoList - ReactJS
 
 - Projeto desenvolvido na trilha de **ReactJS** do **Ignite** da [Rocketseat][rocketseat_site].
 - Modulo 1 - Fundamentos de ReactJS
