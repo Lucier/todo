@@ -52,6 +52,6 @@ $ npm run dev
 
 ## :rocket: Tecnologias
 
-- [React]
+- [ReactJS]
 - [Vite]
 - [TypeScript]
